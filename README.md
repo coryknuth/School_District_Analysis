@@ -49,13 +49,32 @@ Cleaned Data
   
 #### Scores by school spending
 
+We found very slight changes to scores for the $630-$644 category that Thomas High School is in after correcting for the tampered data. However, with our final data for presentation being precise only to one tenth, these very slight changes didn't impact the final results.
 
 
 #### Scores by school size
 
+Much the same as with spending, as we look at the scores broken down by school size into categories, we saw fractional changes from cleaning the fraudulent scores. The changes were less than a tenth so they didn't impact our final results here since our final chart is only precise to one tenth.
+
+Original
+![average_by_size_original](https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_size_original.png)
+
+Cleaned
+
+![average_by_size_cleaned](https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_size_cleaned.png)
 
 
 #### Scores by school type
 
+We found similiar results when analyzing by school type. The differences in scores for both charter schools and district schools don't register in our data with one tenth precision.
 
-Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+Original
+![average_by_type_original](https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_type_original.png)
+
+Cleaned
+![average_by_type_cleaned](https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_type_cleaned.png)
+
+
+### Summary
+
+Thankfully, the amount of data that was compromised relative to the entire dataset was extremely small. We saw the most impact to the average scores for Thomas High School itself. we saw Math and Reading averages, as well as percent passing both subjects and overall were impacted with 0.3% from the original. These changes became even smaller when you analyze at the district level between all schools and students. We found changes measured only in hundreths to average scores regardless of how the data was categorized. We broke it down by spending, size, and school type, and saw little to no impact to the final data to be presented.
