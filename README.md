@@ -65,10 +65,10 @@ We found very slight changes to scores for the $630-$644 category that Thomas Hi
 Much the same as with spending, as we look at the scores broken down by school size into categories, we saw fractional changes from cleaning the fraudulent scores. The changes were less than a tenth so they didn't impact our final results here since our final chart is only precise to one tenth.
 
 ##### Original
-![average_by_size_original](https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_size_original.png)
-
+<img src="https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_size_original.png" width="600">
+  
 ##### Cleaned
-![average_by_size_cleaned](https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_size_cleaned.png)
+<img src="https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_size_cleaned.png" width="600">
 
 
 #### Scores by school type
