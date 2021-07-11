@@ -68,7 +68,7 @@ Much the same as with spending, as we look at the scores broken down by school s
 <img src="https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_size_original.png" width="600">
   
 ##### Cleaned
-<img src="https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_size_cleaned.png" width="600">
+<img src="https://github.com/coryknuth/school_district_analysis/blob/8f78c26ee200e6afa27fb9aaf9699e3a0221635c/Resources/average_by_size_cleaned_fixed.png" width="600">
 
 
 #### Scores by school type
