@@ -18,20 +18,20 @@ As shown, there was a 0.1 decrease in the percent passing overall, and the avera
 
 As we compare the school summaries before and after data cleaning, you'll see the impact was tiny, but measurable to the overall scores for Thomas High School.
 
-Original Data
+##### Original Data
 ![per_school_summary_original](https://github.com/coryknuth/school_district_analysis/blob/9046932ce3cc5ae7dd823842eebb2c8e6909d0d9/Resources/per_school_summary_original.png)
 
-Cleaned Data
+##### Cleaned Data
 ![per_school_summary_cleaned](https://github.com/coryknuth/school_district_analysis/blob/9046932ce3cc5ae7dd823842eebb2c8e6909d0d9/Resources/per_school_summary_cleaned.png)
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
 In the original data, Thomas High School ranked #2 in overall passing percent for the district. After the data cleaning, while Thomas High School's overall passing percent was reduced by roughly 0.3%, Thomas maintained 2nd overall ranking for the district.
 
-Original Data
+##### Original Data
 ![top_5_original](https://github.com/coryknuth/school_district_analysis/blob/9046932ce3cc5ae7dd823842eebb2c8e6909d0d9/Resources/top_5_original.png)
 
-Cleaned Data
+##### Cleaned Data
 ![top_5_cleaned](https://github.com/coryknuth/school_district_analysis/blob/9046932ce3cc5ae7dd823842eebb2c8e6909d0d9/Resources/top_5_cleaned.png)
 
 
@@ -41,26 +41,31 @@ Cleaned Data
 
 Our solution to the tampered scores was to drop them altogether, replacing all Thomas 9th grade scores with N/A values. Because of this the only grade and school affected were the Thomas High 9th graders as shown.
 
-Original Data
+##### Original Data
+
 ![math_by_grade_original](https://github.com/coryknuth/school_district_analysis/blob/5562b7a2c11e0f6a71be0b88fb14853aa70641e5/Resources/math_by_grade_original.png)
 
-Cleaned Data
+##### Cleaned Data
+
 ![math_by_grade_cleaned](https://github.com/coryknuth/school_district_analysis/blob/5562b7a2c11e0f6a71be0b88fb14853aa70641e5/Resources/math_by_grade_cleaned.png)
+  
   
 #### Scores by school spending
 
 We found very slight changes to scores for the $630-$644 category that Thomas High School is in after correcting for the tampered data. However, with our final data for presentation being precise only to one tenth, these very slight changes didn't impact the final results.
 
 
+
+
 #### Scores by school size
 
 Much the same as with spending, as we look at the scores broken down by school size into categories, we saw fractional changes from cleaning the fraudulent scores. The changes were less than a tenth so they didn't impact our final results here since our final chart is only precise to one tenth.
 
-Original
+##### Original
 
 ![average_by_size_original](https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_size_original.png)
 
-Cleaned
+##### Cleaned
 
 ![average_by_size_cleaned](https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_size_cleaned.png)
 
@@ -69,11 +74,11 @@ Cleaned
 
 We found similiar results when analyzing by school type. The differences in scores for both charter schools and district schools don't register in our data with one tenth precision.
 
-Original
+##### Original
 
 ![average_by_type_original](https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_type_original.png)
 
-Cleaned
+##### Cleaned
 
 ![average_by_type_cleaned](https://github.com/coryknuth/school_district_analysis/blob/87d8abfcf5719d97bd4859fa281810f8928fbc33/Resources/average_by_type_cleaned.png)
 
