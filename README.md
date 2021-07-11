@@ -55,11 +55,10 @@ Our solution to the tampered scores was to drop them altogether, replacing all T
 We found very slight changes to scores for the $630-$644 category that Thomas High School is in after correcting for the tampered data. However, with our final data for presentation being precise only to one tenth, these very slight changes didn't impact the final results.
 
 ##### Original
-![average_by_spending_original_fixed](https://github.com/coryknuth/school_district_analysis/blob/95ac2bdcb35f267b0e74260f24325cfcabec04bf/Resources/average_by_spending_original_fixed.png)
+<img src="https://github.com/coryknuth/school_district_analysis/blob/95ac2bdcb35f267b0e74260f24325cfcabec04bf/Resources/average_by_spending_original_fixed.png" width="100">
 
 ##### Cleaned
-![average_by_spending_cleaned_fixed](https://github.com/coryknuth/school_district_analysis/blob/0e68244354ca658743ee044a603ab8a266e32f59/Resources/average_by_spending_cleaned_fixed.png)
-
+<img src="https://github.com/coryknuth/school_district_analysis/blob/0e68244354ca658743ee044a603ab8a266e32f59/Resources/average_by_spending_cleaned_fixed.png" width="100">
 
 #### Scores by school size
 
