@@ -29,20 +29,32 @@ Cleaned Data
 In the original data, Thomas High School ranked #2 in overall passing percent for the district. After the data cleaning, while Thomas High School's overall passing percent was reduced by roughly 0.3%, Thomas maintained 2nd overall ranking for the district.
 
 Original Data
-[top_5_original](https://github.com/coryknuth/school_district_analysis/blob/9046932ce3cc5ae7dd823842eebb2c8e6909d0d9/Resources/top_5_original.png)
+![top_5_original](https://github.com/coryknuth/school_district_analysis/blob/9046932ce3cc5ae7dd823842eebb2c8e6909d0d9/Resources/top_5_original.png)
 
 Cleaned Data
-[top_5_cleaned](https://github.com/coryknuth/school_district_analysis/blob/9046932ce3cc5ae7dd823842eebb2c8e6909d0d9/Resources/top_5_cleaned.png)
+![top_5_cleaned](https://github.com/coryknuth/school_district_analysis/blob/9046932ce3cc5ae7dd823842eebb2c8e6909d0d9/Resources/top_5_cleaned.png)
 
 
 ### How does replacing the ninth-grade scores affect the following:
 
 #### Math and reading scores by grade
 
-  
+Our solution to the tampered scores was to drop them altogether, replacing all Thomas 9th grade scores with N/A values. Because of this the only grade and school affected were the Thomas High 9th graders as shown.
+
+Original Data
+![math_by_grade_original](https://github.com/coryknuth/school_district_analysis/blob/5562b7a2c11e0f6a71be0b88fb14853aa70641e5/Resources/math_by_grade_original.png)
+
+Cleaned Data
+![math_by_grade_cleaned](https://github.com/coryknuth/school_district_analysis/blob/5562b7a2c11e0f6a71be0b88fb14853aa70641e5/Resources/math_by_grade_cleaned.png)
   
 #### Scores by school spending
+
+
+
 #### Scores by school size
+
+
+
 #### Scores by school type
 
 
